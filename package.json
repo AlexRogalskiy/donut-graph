@@ -1,0 +1,46 @@
+{
+  "name": "pixi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "@pixi/app": "^5.3.3",
+    "@pixi/display": "^5.3.3",
+    "@pixi/graphics": "^5.3.3",
+    "@pixi/interaction": "^5.3.3",
+    "@pixi/math": "^5.3.3",
+    "@pixi/mesh": "^5.3.3",
+    "@pixi/mesh-extras": "^5.3.3",
+    "@pixi/mixin-get-child-by-name": "^5.3.3",
+    "@pixi/text": "^5.3.3",
+    "@pixi/utils": "^5.3.3",
+    "@types/gsap": "^1.20.2",
+    "gsap": "^3.5.1",
+    "parcel": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist ./.cache",
+    "start": "npm run clean && parcel index.html",
+    "build": "npm run clean && parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headonkeyboard/bubble-donut-chart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/headonkeyboard/bubble-donut-chart/issues"
+  },
+  "homepage": "https://github.com/headonkeyboard/bubble-donut-chart#readme"
+}
